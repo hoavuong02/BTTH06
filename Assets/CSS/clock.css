@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+table, th, td {
+    border:1px solid black;
+    height: 96px;
+    width: 50%;
+  }
+
+table{
+
+  }
+.banner{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: red;
+    /* animation: doimau 0.3s linear infinite; */
+}
+/* @keyframes doimau {
+    from{
+        color: black;
+    }
+    to{
+        color: red;
+    }
+} */
+#MyClockDisplay{
+    font-size: 36px;
+}
