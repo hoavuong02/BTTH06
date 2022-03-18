@@ -3,10 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: azure;
+}
 table, th, td {
     border:1px solid black;
-    height: 96px;
-    width: 50%;
+    height: 66px;
+    width: 59%;
   }
 
 table{
@@ -20,7 +23,7 @@ table{
     align-items: center;
 }
 h1{
-    color: red;
+    color: black;
     /* animation: doimau 0.3s linear infinite; */
 }
 /* @keyframes doimau {
@@ -31,6 +34,9 @@ h1{
         color: red;
     }
 } */
-#MyClockDisplay{
-    font-size: 36px;
+img{
+    height: 100%;
+}
+.oclock{
+    background-color: #000000;
 }
